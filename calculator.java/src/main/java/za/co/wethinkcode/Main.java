@@ -32,6 +32,15 @@ class Main {
                 System.out.println( number1 + " - "+ number2 + " = " + result);
                 break;
 
+            case '*':
+                result = number1 * number2;
+                System.out.println(number1 + " * " + number2 + " = " + result);
+                break;
+
+            case '/':
+                result = number1 / number2;
+                System.out.println(number1 + " / " + number2 + " = " + result);
+                break;
         }
 
     }
